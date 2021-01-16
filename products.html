@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <h1 class="py-4 text-xl text-yellow-900 font-bold ml-4">Products</h1>
+    <div class="space-y-4 ml-4">
+      <div>
+        <h2 class="font-bold">Industry trends</h2>
+        <p>(free)</p>
+        <p>Analysis on where the industry is going: key technological, macro, and regulatory trends impacting cyrpto. Predictions on future developments</p>
+      </div>
+
+      <div>
+        <h2 class="font-bold">Consumer insights</h2>
+        <p>($299)</p>
+        <p>Consumer segmentation, goals, and key pain points. Sets context for consumer needs in this space</p>
+      </div>
+
+      <div>
+        <h2 class="font-bold">Company and protocol analysis</h2>
+        <p>($499)</p>
+        <p>Detailed analysis on organizations operating in cyrpto including analysis of:</p>
+        <ul class="list-disc list-inside">
+            <li>Structure</li>
+            <li>Positioning</li>
+            <li>Key features</li>
+            <li>Whitepaper review</li>
+        </ul>
+      </div>
+    
+
+      <h2 class="block font-bold">Find out more now by requesting information below!</h2>
+      <form netlify>
+        <label class="block mt-4" for="name">Your name?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded  focus:outline-none focus:text-yellow-900
+        focus:border-yellow-900" type="text" id="name" name="name">
+  
+        <label class="block mt-4" for="email">Your email?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded focus:outline-none focus:text-yellow-900
+        focus:border-yellow-900" type="text" id="email" name="email">
+      
+        <label class="block mt-4" for="order">What product are you interested in?</label>
+        <textarea rows="6" class="p-2 w-full border border-gray-400 roundedfocus:outline-none focus:text-yellow-900
+        focus:border-yellow-900" id="order" name="order"></textarea>
+      
+        <button class="block mt-4 text-white bg-yellow-900 rounded px-4 py-2">Submit form!</button>
+      </form>
+    </div>
+</body>
+</html>
